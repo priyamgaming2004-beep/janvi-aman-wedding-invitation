@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#071f1a">
+  <meta name="description" content="Aman & Janvi — 01 & 02 December 2026, M.G. Greens Resort, Chandausi, Badaun.">
+  <title>Aman & Janvi | 01 & 02 December 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600&family=Noto+Serif+Devanagari:wght@400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="languageGate" class="language-gate" aria-label="Choose language">
+    <div class="language-gate__inner">
+      <div class="preloader__ornament">✦</div>
+      <div class="monogram">A <span>|</span> J</div>
+      <p class="language-gate__title">आपका स्वागत है / Welcome</p>
+      <p class="language-gate__sub">Choose your language / अपनी भाषा चुनें</p>
+      <div class="language-options">
+        <button class="language-btn" data-lang="hi">हिंदी</button>
+        <button class="language-btn" data-lang="en">English</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="preloader" class="preloader hide-preloader" aria-label="Opening invitation">
+    <div class="preloader__ornament">✦</div>
+    <div class="monogram">A <span>|</span> J</div>
+    <p data-i18n="preloaderText">Two hearts. One beautiful journey.</p>
+    <button id="enterBtn" class="gold-btn" data-i18n="openInvitation">Open Invitation</button>
+  </div>
+
+  <div class="grain" aria-hidden="true"></div>
+  <div class="petals" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <a href="#home" class="nav__brand">A <span>|</span> J</a>
+    <nav>
+      <a href="#story" data-i18n="navStory">Our Story</a>
+      <a href="#events" data-i18n="navEvents">Events</a>
+      <a href="#venue" data-i18n="navVenue">Venue</a>
+      <a href="#family" data-i18n="navFamily">Our Family</a>
+      <a href="#gallery" data-i18n="navGallery">Gallery</a>
+    </nav>
+    <div class="nav-actions"><button id="languageToggle" class="lang-toggle" type="button" aria-label="Change language">हिंदी</button><a class="nav__hashtag" href="#rsvp">#AmanWedsJanvi</a></div>
+  </header>
+
+  <main>
+    <section id="home" class="hero section-dark">
+      <div class="hero__photo" aria-hidden="true"></div>
+      <div class="hero__veil" aria-hidden="true"></div>
+
+      <div class="hero__content reveal">
+        <div class="ganesh">ॐ</div>
+        <div class="eyebrow" data-i18n="heroEyebrow">You are cordially invited to celebrate our wedding</div>
+        <h1>Aman <span>&amp;</span> Janvi</h1>
+        <div class="hero__date" data-i18n="heroDate">01 &amp; 02 DECEMBER 2026</div>
+        <div class="hero__venue">M.G. Greens Resort<br><small data-i18n="heroLocation">Chandausi, Badaun</small></div>
+        <a href="#story" class="scroll-cue">
+          <span data-i18n="scrollCue">Scroll down to begin our story</span>
+          <span>↓</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="quote-band">
+      <div class="floral-corner floral-corner--left">❧</div>
+      <p data-i18n="quote">“Some love stories feel like destiny.”</p>
+      <div class="floral-corner floral-corner--right">❧</div>
+    </section>
+
+    <section id="story" class="story section-light">
+      <div class="section-heading reveal">
+        <span class="eyebrow" data-i18n="storyEyebrow">OUR STORY</span>
+        <h2><span data-i18n="storyTitle1">From a thousand little moments</span><br><em data-i18n="storyTitle2">to one beautiful forever.</em></h2>
+      </div>
+
+      <div class="story-grid">
+        <figure class="story-card story-card--large reveal">
+          <img src="assets/images/journey-03.webp" alt="Aman and Janvi together" loading="lazy">
+          <figcaption data-i18n="storyCaption">It was always about finding joy in the ordinary.</figcaption>
+        </figure>
+        <div class="story-copy reveal">
+          <div class="roman">I</div>
+          <p data-i18n="storyP1">Somewhere between laughter, adventures, quiet conversations and countless memories, two lives began to feel like one story.</p>
+          <p data-i18n="storyP2">And now, we're turning the page to our favourite chapter yet.</p>
+        </div>
+        <figure class="story-card story-card--small reveal">
+          <img src="assets/images/journey-02.webp" alt="Aman and Janvi enjoying a celebration" loading="lazy">
+        </figure>
+      </div>
+
+      <div class="story-panorama reveal">
+        <img src="assets/images/journey-10.webp" alt="Aman and Janvi on the grass" loading="lazy">
+        <div class="story-panorama__text">
+          <span data-i18n="nextChapter">THE NEXT CHAPTER</span>
+          <strong data-i18n="beginsForever">Begins with forever.</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="countdown section-cream">
+      <div class="section-heading reveal">
+        <span class="eyebrow" data-i18n="countdownEyebrow">COUNTDOWN TO OUR FOREVER</span>
+        <h2 data-i18n="countdownTitle">The wait is almost over.</h2>
+      </div>
+      <div id="countdown" class="countdown__grid reveal">
+        <div><strong id="days">00</strong><span data-i18n="days">Days</span></div>
+        <div><strong id="hours">00</strong><span data-i18n="hours">Hours</span></div>
+        <div><strong id="minutes">00</strong><span data-i18n="minutes">Minutes</span></div>
+        <div><strong id="seconds">00</strong><span data-i18n="seconds">Seconds</span></div>
+      </div>
+    </section>
+
+    <section id="events" class="events section-dark">
+  <div class="section-heading reveal">
+    <span class="eyebrow" data-i18n="weddingEyebrow">THE WEDDING</span>
+    <h2><span data-i18n="weddingTitle1">A celebration of</span><br><em data-i18n="weddingTitle2">love, rituals &amp; togetherness.</em></h2>
+  </div>
+  <div class="events__days events__days--custom events__days--janvi">
+<article class="day reveal">
+      <div class="day__head"><span>01</span><div><small data-i18n="tuesday">TUESDAY</small><h3 data-i18n="dec2026">DECEMBER 2026</h3></div></div>
+      <div class="timeline">
+<div class="event-row"><i>✦</i><div><b data-i18n="event_Mayra">Mayra</b><small>11 am Onwards</small></div></div>
+<div class="event-row"><i>✦</i><div><b data-i18n="event_Sangeet">Sangeet</b><small>5 pm onwards</small></div></div>
+</div></article>
+<article class="day reveal">
+      <div class="day__head"><span>02</span><div><small data-i18n="wednesday">WEDNESDAY</small><h3 data-i18n="dec2026b">DECEMBER 2026</h3></div></div>
+      <div class="timeline">
+<div class="event-row"><i>✦</i><div><b data-i18n="event_Haldi">Haldi</b><small>10 am - 1 pm</small></div></div>
+<div class="event-row"><i>✦</i><div><b data-i18n="event_Khet_lagun">Khet lagun</b><small>5 pm to 6 pm</small></div></div>
+<div class="event-row"><i>✦</i><div><b data-i18n="event_Jaymala">Jaymala</b><small>9 pm - 10 pm</small></div></div>
+<div class="event-row"><i>✦</i><div><b data-i18n="event_Vidai">Vidai</b><small>4 am.</small></div></div>
+</div></article>
+</div></section>
+
+    <section id="venue" class="venue section-light">
+      <div class="venue__copy reveal">
+        <span class="eyebrow" data-i18n="venueEyebrow">WHERE WE SAY “I DO”</span>
+        <h2>M.G. Greens<br><em>Resort</em></h2>
+        <p data-i18n="venueLocation">Chandausi, Badaun, Uttar Pradesh</p>
+        <a class="gold-btn" href="https://maps.app.goo.gl/AJzV6eoeEG96jUpGA" target="_blank" rel="noopener" data-i18n="openMaps">Open in Google Maps ↗</a>
+      </div>
+      <div class="venue__visual reveal">
+        <div class="map-card">
+          <div class="map-grid"></div>
+          <div class="map-pin">♥</div>
+          <div class="map-label">M.G. Greens Resort</div>
+          <div class="map-road r1"></div><div class="map-road r2"></div><div class="map-road r3"></div>
+          <a href="https://maps.app.goo.gl/AJzV6eoeEG96jUpGA" target="_blank" rel="noopener" data-i18n="openMaps">Open Google Maps ↗</a>
+        </div>
+      </div>
+    </section>
+
+    
+
+<section id="family" class="family section-green family--janvi-csv">
+  <div class="section-heading reveal janvi-family-main-heading">
+    <span class="eyebrow" data-i18n="familyEyebrow">OUR FAMILY</span>
+    <h2><span data-i18n="familyTitle1">Our family,</span><br><em data-i18n="familyTitle2">with all our love.</em></h2>
+    <div class="janvi-heading-ornament">✦</div>
+  </div>
+
+  <div class="janvi-family-layout">
+    
+
+<article class="janvi-family-blessing-card reveal">
+  <div class="janvi-family-blessing-inner janvi-family-blessing-inner--two-groups">
+
+    <div class="janvi-family-subgroup">
+      <div class="janvi-heart">♥</div>
+      <div class="janvi-family-kicker" data-i18n="familyPapaMumma">Papa Mumma</div>
+      <div class="janvi-family-blessing-rule"></div>
+      <div class="janvi-blessing-names">
+        <div class="janvi-blessing-name">
+          <span data-name-en="Sanjiv Kumar Jain" data-name-hi="संजीव कुमार जैन">Sanjiv Kumar Jain</span>
+          <small data-role-en="Papa" data-role-hi="पापा">Papa</small>
+        </div>
+        <div class="janvi-blessing-name">
+          <span data-name-en="Rashmi Jain" data-name-hi="रश्मि जैन">Rashmi Jain</span>
+          <small data-role-en="Mumma" data-role-hi="मम्मी">Mumma</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="janvi-family-subgroup janvi-family-subgroup--second">
+      <div class="janvi-family-kicker" data-i18n="familyBhaiyaBhabhi">Bhaiya Bhabhi</div>
+      <div class="janvi-family-blessing-rule"></div>
+      <div class="janvi-blessing-names">
+        <div class="janvi-blessing-name">
+          <span data-name-en="Jainesh Jain" data-name-hi="जैनेश जैन">Jainesh Jain</span>
+          <small data-role-en="Bhaiya" data-role-hi="भैया">Bhaiya</small>
+        </div>
+        <div class="janvi-blessing-name">
+          <span data-name-en="Riya Jain" data-name-hi="रिया जैन">Riya Jain</span>
+          <small data-role-en="Bhabhi" data-role-hi="भाभी">Bhabhi</small>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</article>
+
+
+<article class="janvi-loved-card reveal">
+  <div class="janvi-loved-card__inner">
+    <div class="janvi-card-head">
+      <span class="janvi-card-label" data-i18n="familyBlock02">Darshan Abhilashi</span>
+      <span class="janvi-card-number">02</span>
+    </div>
+    <div class="janvi-loved-list"><div class="janvi-family-person"><strong data-name-en="Padam Chand Jain" data-name-hi="पदम चंद जैन">Padam Chand Jain</strong><small data-role-en="Tauji" data-role-hi="ताऊजी">Tauji</small></div>
+<div class="janvi-family-person"><strong data-name-en="Naveen Kumar Jain" data-name-hi="नवीन कुमार जैन">Naveen Kumar Jain</strong><small data-role-en="Tauji" data-role-hi="ताऊजी">Tauji</small></div>
+<div class="janvi-family-person"><strong data-name-en="Anup Kumar Jain" data-name-hi="अनूप कुमार जैन">Anup Kumar Jain</strong><small data-role-en="Bhaiya" data-role-hi="भैया">Bhaiya</small></div>
+<div class="janvi-family-person"><strong data-name-en="Vishal Jain" data-name-hi="विशाल जैन">Vishal Jain</strong><small data-role-en="Bhaiya" data-role-hi="भैया">Bhaiya</small></div>
+<div class="janvi-family-person"><strong data-name-en="Rajiv - Preeti Jain" data-name-hi="राजीव - प्रीति जैन">Rajiv - Preeti Jain</strong><small data-role-en="Bhaiya - Bhabhi" data-role-hi="भैया - भाभी">Bhaiya - Bhabhi</small></div>
+<div class="janvi-family-person"><strong data-name-en="Manish - Parul Jain" data-name-hi="मनीष - पारुल जैन">Manish - Parul Jain</strong><small data-role-en="Bhaiya - Bhabhi" data-role-hi="भैया - भाभी">Bhaiya - Bhabhi</small></div>
+<div class="janvi-family-person"><strong data-name-en="Pratik Jain" data-name-hi="प्रतीक जैन">Pratik Jain</strong><small data-role-en="Bhaiya" data-role-hi="भैया">Bhaiya</small></div>
+<div class="janvi-family-person"><strong data-name-en="Mohit - Sapna Jain" data-name-hi="मोहित - सपना जैन">Mohit - Sapna Jain</strong><small data-role-en="Bhaiya - Bhabhi" data-role-hi="भैया - भाभी">Bhaiya - Bhabhi</small></div>
+<div class="janvi-family-person"><strong data-name-en="Harshit Jain" data-name-hi="हर्षित जैन">Harshit Jain</strong><small data-role-en="Bhai" data-role-hi="भाई">Bhai</small></div>
+<div class="janvi-family-person"><strong data-name-en="(The entire Lohriya family)" data-name-hi="(पूरा लोह्रिया परिवार)">(The entire Lohriya family)</strong></div></div>
+  </div>
+</article>
+
+<article class="janvi-loved-card reveal">
+  <div class="janvi-loved-card__inner">
+    <div class="janvi-card-head">
+      <span class="janvi-card-label" data-i18n="familyBlock03">Swagat Utsuk</span>
+      <span class="janvi-card-number">03</span>
+    </div>
+    <div class="janvi-loved-list"><div class="janvi-family-person"><strong data-name-en="Mithlesh Devi" data-name-hi="मिथिलेश देवी">Mithlesh Devi</strong><small data-role-en="Buaji" data-role-hi="बुआजी">Buaji</small></div>
+<div class="janvi-family-person"><strong data-name-en="Mina - Ashok Kumar Jain" data-name-hi="मीना - अशोक कुमार जैन">Mina - Ashok Kumar Jain</strong><small data-role-en="Buaji - Fufaji" data-role-hi="बुआजी - फूफाजी">Buaji - Fufaji</small></div>
+<div class="janvi-family-person"><strong data-name-en="Anil Kumar Jain" data-name-hi="अनिल कुमार जैन">Anil Kumar Jain</strong><small data-role-en="Fufaji" data-role-hi="फूफाजी">Fufaji</small></div>
+<div class="janvi-family-person"><strong data-name-en="Sweta - Vikram Jain" data-name-hi="श्वेता - विक्रम जैन">Sweta - Vikram Jain</strong><small data-role-en="Didi - Jijaji" data-role-hi="दीदी - जीजाजी">Didi - Jijaji</small></div>
+<div class="janvi-family-person"><strong data-name-en="Priyanka - Chandraprakash Jain" data-name-hi="प्रियंका - चंद्रप्रकाश जैन">Priyanka - Chandraprakash Jain</strong><small data-role-en="Didi - Jijaji" data-role-hi="दीदी - जीजाजी">Didi - Jijaji</small></div>
+<div class="janvi-family-person"><strong data-name-en="Eshika - Himanshu Jain" data-name-hi="ईशिका - हिमांशु जैन">Eshika - Himanshu Jain</strong><small data-role-en="Behen - Behnoi" data-role-hi="बहन - बहनोई">Behen - Behnoi</small></div>
+<div class="janvi-family-person"><strong data-name-en="Vinita - Ankur Jain" data-name-hi="विनीता - अंकुर जैन">Vinita - Ankur Jain</strong><small data-role-en="Didi - Jijaji" data-role-hi="दीदी - जीजाजी">Didi - Jijaji</small></div>
+<div class="janvi-family-person"><strong data-name-en="Vibhor - Priyanshi Jain" data-name-hi="विभोर - प्रियांशी जैन">Vibhor - Priyanshi Jain</strong><small data-role-en="Bhaiya - Bhabhi" data-role-hi="भैया - भाभी">Bhaiya - Bhabhi</small></div>
+<div class="janvi-family-person"><strong data-name-en="Rahul - Prajeta Jain" data-name-hi="राहुल - प्राजेता जैन">Rahul - Prajeta Jain</strong><small data-role-en="Bhaiya - Bhabhi" data-role-hi="भैया - भाभी">Bhaiya - Bhabhi</small></div>
+<div class="janvi-family-person"><strong data-name-en="Nikhil Jain" data-name-hi="निखिल जैन">Nikhil Jain</strong><small data-role-en="Bhai" data-role-hi="भाई">Bhai</small></div>
+<div class="janvi-family-person"><strong data-name-en="Antara Jain" data-name-hi="अंतरा जैन">Antara Jain</strong><small data-role-en="Behen" data-role-hi="बहन">Behen</small></div></div>
+  </div>
+</article>
+
+<article class="janvi-loved-card reveal">
+  <div class="janvi-loved-card__inner">
+    <div class="janvi-card-head">
+      <span class="janvi-card-label" data-i18n="familyBlock04">Kutumb</span>
+      <span class="janvi-card-number">04</span>
+    </div>
+    <div class="janvi-loved-list"><div class="janvi-family-person"><strong data-name-en="Lt. Subhash Chand Jain" data-name-hi="स्व. सुभाष चंद जैन">Lt. Subhash Chand Jain</strong><small data-role-en="Tauji" data-role-hi="ताऊजी">Tauji</small></div>
+<div class="janvi-family-person"><strong data-name-en="Nilam Devi Jain" data-name-hi="नीलम देवी जैन">Nilam Devi Jain</strong><small data-role-en="Taiji" data-role-hi="ताईजी">Taiji</small></div>
+<div class="janvi-family-person"><strong data-name-en="Gopal Prasad Jain" data-name-hi="गोपाल प्रसाद जैन">Gopal Prasad Jain</strong><small data-role-en="Tauji" data-role-hi="ताऊजी">Tauji</small></div>
+<div class="janvi-family-person"><strong data-name-en="Manju Jain" data-name-hi="मंजू जैन">Manju Jain</strong><small data-role-en="Taiji" data-role-hi="ताईजी">Taiji</small></div>
+<div class="janvi-family-person"><strong data-name-en="Jitendra Kumar Jain" data-name-hi="जितेंद्र कुमार जैन">Jitendra Kumar Jain</strong><small data-role-en="Chachaji" data-role-hi="चाचाजी">Chachaji</small></div>
+<div class="janvi-family-person"><strong data-name-en="Rajni Jain" data-name-hi="रजनी जैन">Rajni Jain</strong><small data-role-en="Chachiji" data-role-hi="चाचीजी">Chachiji</small></div>
+<div class="janvi-family-person"><strong data-name-en="Sailendra Kumar Jain" data-name-hi="शैलेंद्र कुमार जैन">Sailendra Kumar Jain</strong><small data-role-en="Chachaji" data-role-hi="चाचाजी">Chachaji</small></div>
+<div class="janvi-family-person"><strong data-name-en="Nutun Jain" data-name-hi="नूतन जैन">Nutun Jain</strong><small data-role-en="Chachiji" data-role-hi="चाचीजी">Chachiji</small></div></div>
+  </div>
+</article>
+
+<article class="janvi-loved-card reveal">
+  <div class="janvi-loved-card__inner">
+    <div class="janvi-card-head">
+      <span class="janvi-card-label" data-i18n="familyBlock05">Nanihal Paksh</span>
+      <span class="janvi-card-number">05</span>
+    </div>
+    <div class="janvi-loved-list"><div class="janvi-family-person"><strong data-name-en="Dharmendra Jain" data-name-hi="धर्मेंद्र जैन">Dharmendra Jain</strong><small data-role-en="Mamaji" data-role-hi="मामाजी">Mamaji</small></div>
+<div class="janvi-family-person"><strong data-name-en="Priti Jain" data-name-hi="प्रीति जैन">Priti Jain</strong><small data-role-en="Mamiji" data-role-hi="मामीजी">Mamiji</small></div>
+<div class="janvi-family-person"><strong data-name-en="Anvi Jain" data-name-hi="अन्वी जैन">Anvi Jain</strong><small data-role-en="Behen" data-role-hi="बहन">Behen</small></div>
+<div class="janvi-family-person"><strong data-name-en="(Lashkar)" data-name-hi="(लश्कर)">(Lashkar)</strong></div></div>
+  </div>
+</article>
+
+<article class="janvi-circle-card reveal">
+  <div class="janvi-circle-card__inner">
+    <div class="janvi-card-head">
+      <span class="janvi-card-label" data-i18n="familyBlock06">Bhatija - Bhatiji</span>
+      <span class="janvi-card-number">06</span>
+    </div>
+    <div class="janvi-circle-list"><span class="janvi-circle-name" data-name-en="Pramukh" data-name-hi="प्रमुख">Pramukh</span>
+<span class="janvi-circle-name" data-name-en="Vishesh" data-name-hi="विशेष">Vishesh</span>
+<span class="janvi-circle-name" data-name-en="Ashvik" data-name-hi="अश्विक">Ashvik</span>
+<span class="janvi-circle-name" data-name-en="Saksham" data-name-hi="सक्षम">Saksham</span>
+<span class="janvi-circle-name" data-name-en="Atharva" data-name-hi="अथर्व">Atharva</span>
+<span class="janvi-circle-name" data-name-en="Harshal" data-name-hi="हर्षल">Harshal</span>
+<span class="janvi-circle-name" data-name-en="Harshita" data-name-hi="हर्षिता">Harshita</span>
+<span class="janvi-circle-name" data-name-en="Avyan" data-name-hi="अव्यान">Avyan</span></div>
+  </div>
+</article>
+
+<article class="janvi-circle-card reveal">
+  <div class="janvi-circle-card__inner">
+    <div class="janvi-card-head">
+      <span class="janvi-card-label" data-i18n="familyBlock07">Bhanja - Bhanji</span>
+      <span class="janvi-card-number">07</span>
+    </div>
+    <div class="janvi-circle-list"><span class="janvi-circle-name" data-name-en="Aaradhya" data-name-hi="आराध्या">Aaradhya</span>
+<span class="janvi-circle-name" data-name-en="Advik" data-name-hi="अद्विक">Advik</span>
+<span class="janvi-circle-name" data-name-en="Sachi" data-name-hi="साची">Sachi</span>
+<span class="janvi-circle-name" data-name-en="Vachi" data-name-hi="वाची">Vachi</span>
+<span class="janvi-circle-name" data-name-en="Ansh" data-name-hi="अंश">Ansh</span>
+<span class="janvi-circle-name" data-name-en="Prisha" data-name-hi="प्रिशा">Prisha</span>
+<span class="janvi-circle-name" data-name-en="Ritvik" data-name-hi="ऋत्विक">Ritvik</span></div>
+  </div>
+</article>
+
+  </div>
+</section>
+
+
+
+    <section id="gallery" class="gallery section-cream">
+      <div class="section-heading reveal">
+        <span class="eyebrow" data-i18n="galleryEyebrow">OUR JOURNEY</span>
+        <h2><span data-i18n="galleryTitle1">A few moments</span><br><em data-i18n="galleryTitle2">from our story.</em></h2>
+      </div>
+      <div class="gallery-grid">
+        <figure class="g g1 reveal"><img src="assets/images/journey-01.webp" alt="Aman and Janvi" loading="lazy"></figure>
+        <figure class="g g2 reveal"><img src="assets/images/journey-02.webp" alt="Aman and Janvi" loading="lazy"></figure>
+        <figure class="g g3 reveal"><img src="assets/images/journey-03.webp" alt="Aman and Janvi" loading="lazy"></figure>
+        <figure class="g g4 reveal"><img src="assets/images/journey-04.webp" alt="Aman and Janvi" loading="lazy"></figure>
+        <figure class="g g5 reveal"><img src="assets/images/journey-05.webp" alt="Aman and Janvi" loading="lazy"></figure>
+        <figure class="g g6 reveal"><img src="assets/images/journey-06.webp" alt="Aman and Janvi" loading="lazy"></figure>
+        <figure class="g g7 reveal"><img src="assets/images/journey-07.webp" alt="Aman and Janvi" loading="lazy"></figure>
+        <figure class="g g8 reveal"><img src="assets/images/journey-08.webp" alt="Aman and Janvi" loading="lazy"></figure>
+        <figure class="g g9 reveal"><img src="assets/images/journey-09.webp" alt="Aman and Janvi" loading="lazy"></figure>
+        <figure class="g g10 reveal"><img src="assets/images/journey-10.webp" alt="Aman and Janvi" loading="lazy"></figure>
+      </div>
+    </section>
+
+    <section id="rsvp" class="closing section-dark">
+      <div class="closing__photo"></div>
+      <div class="closing__veil"></div>
+      <div class="closing__content reveal">
+        <div class="monogram">A <span>|</span> J</div>
+        <span class="eyebrow" data-i18n="closingEyebrow">THE BEGINNING OF FOREVER</span>
+        <h2><span data-i18n="closingTitle1">We can't wait</span><br><span data-i18n="closingTitle2">to celebrate with you.</span></h2>
+        <p><span data-i18n="closingDate">01 &amp; 02 December 2026</span><br>M.G. Greens Resort, Chandausi</p>
+        <a class="gold-btn" href="https://maps.app.goo.gl/AJzV6eoeEG96jUpGA" target="_blank" rel="noopener" data-i18n="findVenue">Find the Venue ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <button id="musicToggle" class="music-toggle" aria-label="Toggle music" title="Add assets/music/wedding-song.mp3 to enable music">
+    <span>♪</span><i></i>
+  </button>
+  <audio id="bgMusic" loop preload="none">
+    <source src="assets/music/wedding-song.mp3" type="audio/mpeg">
+  </audio>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button id="lightboxClose" aria-label="Close">×</button>
+    <img id="lightboxImg" src="" alt="">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
